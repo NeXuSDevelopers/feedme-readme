@@ -17,7 +17,7 @@ program
     // process.exit(1)
     if (gotReadme) {
       // Copy in the template
-      fs.copyFile("newReadme.md", process.cwd() + "/readme.md", err => {
+      fs.copyFile(__dirname + "/../newReadme.md", process.cwd() + "/readme.md", err => {
         if (err) throw err
         console.log("Your new Readme is ready to go!")
       })
