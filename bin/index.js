@@ -13,8 +13,6 @@ program
   .description("A readme style starter")
   .action(() => {
     // Check that we're in the correct directory
-    console.log(process.cwd())
-    // process.exit(1)
     if (gotReadme) {
       // Copy in the template
       fs.copyFile(__dirname + "/../newReadme.md", process.cwd() + "/readme.md", err => {
