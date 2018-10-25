@@ -1,5 +1,5 @@
 <p align="center">
-  <h2 align="center">Feedme Readme</h2>
+  <h1 align="center">Feedme Readme</h2>
 </p>
 
 ## Introduction
