@@ -1,6 +1,8 @@
 <p align="center">
   <h1 align="center">Feedme Readme</h2>
+  <img src="./logo.png"/>
 </p>
+
 
 ## Introduction
 
